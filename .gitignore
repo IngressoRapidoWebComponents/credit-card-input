@@ -1,1 +1,8 @@
 bower_components
+node_modules
+dist
+build
+.tmp
+.publish/
+.idea/
+npm-debug.log
