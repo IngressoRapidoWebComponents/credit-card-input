@@ -19,15 +19,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <script src="cc-validator.js"></script>
 
 <!--
-`gold-cc-input` is a single-line text field with Material Design styling
+`credit-card-input` is a single-line text field with Material Design styling
 for entering a credit card number. As the user types, the number will be
 formatted by adding a space every 4 digits.
 
-    <gold-cc-input></gold-cc-input>
+    <credit-card-input></credit-card-input>
 
 It may include an optional label, which by default is "Card number".
 
-    <gold-cc-input label="CC"></gold-cc-input>
+    <credit-card-input label="CC"></credit-card-input>
 
 ### Validation
 
@@ -53,15 +53,15 @@ style this element.
 
 Custom property | Description | Default 
 ----------------|-------------|---------- 
-`----gold-cc-input-icon-container` | Mixin applied to the icon container | `{}`
+`----credit-card-input-icon-container` | Mixin applied to the icon container | `{}`
 
 @group Gold Elements
 @hero hero.svg
 @demo demo/index.html
-@class gold-cc-input
+@class credit-card-input
 -->
 
-<dom-module id="gold-cc-input">
+<dom-module id="credit-card-input">
 
   <template>
 
@@ -74,7 +74,7 @@ Custom property | Description | Default
     .icon-container {
       margin-left: 10px;
       height: 24px;
-      @apply(--gold-cc-input-icon-container);
+      @apply(--credit-card-input-icon-container);
     }
 
     iron-icon {
@@ -128,7 +128,7 @@ Custom property | Description | Default
     (function() {
       Polymer({
 
-        is: 'gold-cc-input',
+        is: 'credit-card-input',
 
         behaviors: [
           Polymer.PaperInputBehavior,
@@ -244,9 +244,8 @@ Custom property | Description | Default
             invalid: !valid
           });
 
-          // We don't have icons for all the card types.
-          if (valid && result.card_type.icon) {
-            this.$.icon.src = this.resolveUrl(result.card_type.icon);
+          if (valid) {
+            this.$.icon.src = this.resolveUrl('images/' + result.card_type.name + '.png');
             this.$.icon.alt = this.cardType;
             this.$.icon.hidden = false;
           } else {

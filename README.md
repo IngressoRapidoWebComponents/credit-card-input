@@ -2,7 +2,7 @@
 <!---
 
 This README is automatically generated from the comments in these files:
-gold-cc-input.html
+credit-card-input.html
 
 Edit those files, and our readme bot will duplicate them over here!
 Edit this file, and the bot will squash your changes :)
@@ -12,25 +12,23 @@ thing! https://github.com/PolymerLabs/tedium/issues
 
 -->
 
-[![Build status](https://travis-ci.org/PolymerElements/gold-cc-input.svg?branch=master)](https://travis-ci.org/PolymerElements/gold-cc-input)
-
-_[Demo and API docs](https://elements.polymer-project.org/elements/gold-cc-input)_
+_[Demo and API docs](https://www.webcomponents.org/element/IngressoRapidoWebComponents/credit-card-input)_
 
 
-##&lt;gold-cc-input&gt;
+##&lt;credit-card-input&gt;
 
-`gold-cc-input` is a single-line text field with Material Design styling
+`credit-card-input` is a single-line text field with Material Design styling
 for entering a credit card number. As the user types, the number will be
 formatted by adding a space every 4 digits.
 
 ```html
-<gold-cc-input></gold-cc-input>
+<credit-card-input></credit-card-input>
 ```
 
 It may include an optional label, which by default is "Card number".
 
 ```html
-<gold-cc-input label="CC"></gold-cc-input>
+<credit-card-input label="CC"></credit-card-input>
 ```
 
 ### Validation
@@ -57,6 +55,6 @@ style this element.
 
 | Custom property | Description | Default  |
 | --- | --- | --- |
-| `----gold-cc-input-icon-container` | Mixin applied to the icon container | `{}` |
+| `----credit-card-input-icon-container` | Mixin applied to the icon container | `{}` |
 
 

@@ -1,4 +1,4 @@
-<!-- Instructions: https://github.com/PolymerElements/gold-cc-input/CONTRIBUTING.md#filing-issues -->
+<!-- Instructions: https://www.webcomponents.org/element/IngressoRapidoWebComponents/credit-card-input/CONTRIBUTING.md#filing-issues -->
 ### Description
 <!-- Example: The `paper-foo` element causes the page to turn pink when clicked. -->
 

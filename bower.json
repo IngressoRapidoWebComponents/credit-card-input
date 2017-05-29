@@ -1,5 +1,5 @@
 {
-  "name": "gold-cc-input",
+  "name": "credit-card-input",
   "version": "1.0.7",
   "description": "A credit card input field",
   "authors": [
@@ -10,14 +10,14 @@
     "polymer",
     "input"
   ],
-  "main": "gold-cc-input.html",
+  "main": "credit-card-input.html",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/gold-cc-input.git"
+    "url": "git://github.com/IngressoRapidoWebComponents/credit-card-input.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/gold-cc-input",
+  "homepage": "https://github.com/IngressoRapidoWebComponents/credit-card-input",
   "ignore": [],
   "dependencies": {
     "iron-validator-behavior": "PolymerElements/iron-validator-behavior#^1.0.0",
