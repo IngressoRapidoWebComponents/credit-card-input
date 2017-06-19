@@ -11,7 +11,7 @@
     "input"
   ],
   "main": "credit-card-input.html",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/IngressoRapidoWebComponents/credit-card-input.git"
